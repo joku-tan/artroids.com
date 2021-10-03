@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Artroids was created to inform and educate people about the Lucy Mission of NASA to visit the Trojan Asteroids"
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/tab-logo.png" />
+    <link rel="apple-touch-icon" href="img/tab-logo.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <script>    
+      $(".accordion_body .li_qus").click(function() {
+        $(this).parent().toggleClass("active");
+      });
+    </script>
+
+    <title>Artroids | Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="main-link" href="#">
+        <img class="logo" alt="Artroids logo" src="img/logo1.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#lucy">Lucy and NASA</a></li>
+          <li><a class="main-nav-link" href="#trojan">Trojan Asteroids</a></li>
+          <li><a class="main-nav-link" href="#about">About Us</a></li>
+          <li><a class="main-nav-link" href="#faq">FAQ's</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero-main">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              NASA's venture to the Stars
+            </h1>
+            <p class="hero-description">     
+              NASA's next mission might be the most important one yet. Come along with us as we explore and learn more abbout what is Lucy, it's making and where its headed.
+
+            </p>
+            <a href="#lucy" class="btn btn--outline">Learn more about Lucy and NASA &darr;</a>
+          </div>
+        </div>
+        <div class="lucylogo">
+          <img alt="Lucy" src="img/lucy2.jpeg"> 
+        </div>
+      </section>
+      <section class="section-lucy" id="lucy">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Lucy and NASA
+            </h1>
+            <p class="hero-description">     
+              Lucy will be the first space mission to study the Trojans. The mission takes its name from the fossilized human ancestor (called “Lucy” by her discoverers) whose skeleton provided unique insight into humanity's evolution. Likewise, the Lucy mission will revolutionize our knowledge of planetary origins and the formation of the solar system.
+              <br>Lucy will be launched in October 2021 with boosts from Earth's gravity and will complete a 12-year journey to eight different asteroids — a Main Belt asteroid and seven Trojans, four of which are members of “two-for-the-price-of-one” binary systems. Lucy’s complex path will take it to both the clusters of Trojans and give us our first close-up view of all three major types of bodies in the swarms (so-called C-, P- and D-types)
+            </p>
+          </div>
+        </div>
+      </section>  
+
+      <section class="section-trojan" id="#trojan">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              The Trojan Asteroids
+            </h1>
+            <p class="hero-description">     
+              The term 'Trojan asteroid' generally refers to the asteroids accompanying Jupiter.The Trojan asteroids are leftovers of the primordial material from which Jupiter and the other outer planets were formed. ... The 12-year mission is designed to give scientists an up-close view of the so-called Trojan asteroids, which share their orbits around the sun with the largest planet in the solar system
+              <br><br><img alt="Trojan Diagram" src="img/jupiterdiagram.jpeg"><br><br>There are currently over 4,800 known Trojan asteroids associated with Jupiter. About 65% of these belong to the leading group (L4) located 60o in front of Jupiter in its orbit, while the other 35% cluster around the L5 Lagrangian point and trail 60o behind Jupiter. Although their orbits are stabilised at the Lagrangian points by gravitational interactions with Jupiter and the Sun, their actual distribution is elongated along the orbit. Perturbations by the other planets (primarily Saturn) cause the Trojans to oscillate around L4 and L5 by ∼20° and at inclinations of up to 40° to the orbital plane. These oscillations generally take between 150 and 200 years to complete.
+            </p>
+            <p class="hero-description">
+              Nearly all asteroids are irregularly shaped, although a few of the largest are nearly spherical, such as Ceres. They are often pitted or cratered — for instance, Vesta has a giant crater some 285 miles (460 km) in diameter. The surfaces of most asteroids are thought to be covered in dust. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-aboutus">
+        <div class="about-section">
+          <h1 class="heading-primary">About Us</h1>
+          <p class="heading-secondary">Meet our team</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img class = "about-img" src="img/hajna.jpeg" alt="Hajna" >
+              <div class="container">
+                <h2 class="heading-tertiary">Hajna Shaik</h2>
+                <p class="title heading-tertiary">Creative Department</p>
+                <p class="about heading-tertiary">A creative bud</p>
+                <p class="heading-tertiary">ha9023@srmist.edu.in</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img class = "about-img" src="img/sanskriti.jpeg" alt="Sanskriti" >
+              <div class="container">
+                <h2 class="heading-tertiary">Sanskriti Garg</h2>
+                <p class="title heading-tertiary">Creative Department</p>
+                <p class="about heading-tertiary">An innovative companion</p>
+                <p class="heading-tertiary">sr7158@srmist.edu.in</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img class = "about-img" src="img/protyush.jpg" alt="Protyush" >
+              <div class="container">
+                <h2 class="heading-tertiary">Protyush Kundu</h2>
+                <p class="title heading-tertiary">Information Retrieval Department</p>
+                <p class="about heading-tertiary">A guy who likes to explore and collect information</p>
+                <p class="heading-tertiary">pt3564@srmist.edu.in</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img class = "about-img" src="img/aditya.png" alt="Aditya" >
+              <div class="container">
+                <h2 class="heading-tertiary">Aditya Majumdar</h2>
+                <p class="title heading-tertiary">Information Retrieval Department</p>
+                <p class="about heading-tertiary">A hard working guy</p>
+                <p class="heading-tertiary">aa0298@srmist.edu.in</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img class = "about-img" src="img/joshua.jpeg" alt="Joshua" >
+              <div class="container">
+                <h2 class="heading-tertiary">Joshua Bobby</h2>
+                <p class="title heading-tertiary">Web Designer</p>
+                <p class="about heading-tertiary">A guy who likes to code.. a lot.</p>
+                <p class="heading-tertiary">jv8923@srmist.edu.in</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-faq" id="faq"> 
+        <div class="box">
+          <h1  class="heading-primary">
+            FAQs
+          </h1>
+          <div class="faqs">
+             <details>
+                <summary class="faq-questions">What are the Trojan asteroids?</summary>
+                <p class="faq-text">The Jupiter Trojan asteroids are a population of small bodies, the largest about 160 miles (250 km) across, that are leftover raw materials from the formation of our Solar System’s giant planets (Jupiter, Saturn, Uranus, and Neptune). They share an orbit with Jupiter as it goes around the Sun, although they are, on average, as far away from Jupiter as Jupiter is from the Sun!</p>
+             </details>
+             <details>
+                <summary class="faq-questions">What’s a Lagrange point?</summary>
+                <p class="faq-text">Lagrange Points are positions in space where the gravitational forces of a two-body system like the Sun and the Earth produce enhanced regions of attraction and repulsion. These can be used by spacecraft to reduce fuel consumption needed to remain in positions.</p>
+             </details>
+             <details>
+                <summary class="faq-questions">Why go to the Trojan asteroids?</summary>
+                <p class="faq-text">The Trojan asteroids are time capsules from the earliest days of our Solar System, over 4 billion years ago; but they have never been explored by a space mission. They are a diverse group. Scientists hypothesize that they are a mixture of bodies that formed all over the outer Solar System, and later became trapped around one of the Lagrange points. Since we are exploring the unknown, we won’t know for sure what we will discover until we get there, but whatever Lucy finds will give us vital clues about the formation of our Solar System.</p>
+             </details>
+             <details>
+              <summary class="faq-questions">What does Lucy stand for?</summary>
+              <p class="faq-text">Surprisingly for NASA, Lucy doesn’t stand for anything! The name Lucy was chosen in honor of the fossilized human ancestor that was found, and given the same name, in Ethiopia in 1974.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">When will Lucy Launch?</summary>
+              <p class="faq-text">Lucy’s 21-day launch window opens on Oct 16, 2021, and there will be about a 1-hour opportunity to launch every morning during that period. Lucy’s launch is planned for the first opportunity, at 5:34 am on Oct 16.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">Where will Lucy Launch from? On what rocket?</summary>
+              <p class="faq-text">Lucy will launch on a United Launch Alliance (ULA) Atlas V rocket from Space Launch Complex 41 at Cape Canaveral Space Force Station, Florida.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">How can I watch Lucy’s Launch?</summary>
+              <p class="faq-text">You can watch the launch online or on NASA TV. If you are in Florida near the launch area, you may be able to view the launch in person from the Kennedy Space Center Visitor Complex, COVID restrictions permitting.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">How long is the mission? How far will Lucy travel?</summary>
+              <p class="faq-text">Lucy’s prime mission is nearly 12 years long. During that time, Lucy will travel almost 4 billion miles making three and a half giant loops around the Sun, averaging around 400,000 mph (15 km/s)! Lucy will be the first spacecraft to travel out to the distance of Jupiter (actually a bit farther) and return to the vicinity of the Earth.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">How many asteroids will Lucy fly by?</summary>
+              <p class="faq-text">Lucy will fly by seven Trojan asteroids and one main belt asteroid, visiting a record number of objects on separate orbits around the Sun.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">What will happen to Lucy at the End of the Mission?</summary>
+              <p class="faq-text">After the mission ends, Lucy will continue on a stable orbit traveling from near the Earth’s orbit and then out again into the Trojan swarms. The team has carefully planned so that Lucy will not hit the Earth or contaminate any place that might have life for well over 100,000 years. If no future humans collect Lucy as a historical artifact of the early days of Solar System exploration, then Lucy’s orbit will eventually become unstable, and Jupiter will most likely send the spaceship into the Sun or fling it out of the Solar System.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">What instruments will Lucy carry?</summary>
+              <p class="faq-text">Lucy will carry three science instruments L’Ralph , L’LORRI , L’TES</p>
+            </details>
+            <details>
+              <summary class="faq-questions">How did the Trojan asteroids get to their current locations?</summary>
+              <p class="faq-text">Scientists first hypothesized that the Trojan asteroids formed in their current location, and thus represented the same population that formed the central core of Jupiter. However, when astronomers obtained more information about the early evolution of the solar system and noticed the subtle but significant diversity in the Trojan population, they revised this view. The evidence now suggests that these objects might have come from all over the outer Solar System and settled in their current locations after being scattered by the gravitational pulls of Saturn, Uranus, and Neptune during a period of great instability early in our Solar System's evolution.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">Will Lucy study Jupiter while in the neighborhood?</summary>
+              <p class="faq-text">The Lucy spacecraft isn’t actually going close to Jupiter at all! Though they are called the Jupiter Trojan asteroids, the asteroids average the same distance from Jupiter as Jupiter is from the Sun!</p>
+            </details>
+            <details>
+              <summary class="faq-questions">How big is the spacecraft?</summary>
+              <p class="faq-text">With the solar arrays completely unfurled, the spacecraft is 46.75 ft (14.25 m) wide. Each solar array is 23.9 ft (7.3 m) in diameter.</p>
+            </details>
+            <details>
+              <summary class="faq-questions">What powers Lucy?</summary>
+              <p class="faq-text">There are two main types of power sources for space missions, solar arrays and radioisotope thermoelectric generators (RTGs). Lucy will break records, operating farther from the Sun than any previous solar powered spacecraft. While Lucy’s large solar arrays do pose some challenges for the mission (they are large and make maneuvering more difficult), they are made of materials that are both easily available and easy to work with.</p>
+            </details>
+
+          </div>
+        </div>
+      </section> 
+
+
+
+      
+      
+      
+    </main> 
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Artroids Logo" src="img/logo1.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="https://www.instagram.com/artroids_official/"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2021</span> by Artroids.
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
